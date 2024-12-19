@@ -1,0 +1,33 @@
+{
+    "name": "audience77/laravel-schemaspy-meta",
+    "description": "Generate schemaspy-meta.xml from Laravel Eloquent Models.",
+    "keywords": [
+      "laravel",
+      "schemaspy",
+      "database",
+      "schema",
+      "er diagram"
+    ],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "motoki-sato"
+      }
+    ],
+    "require": {
+      "laravel/framework": ">=6.0",
+      "nikic/php-parser": "^4.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Audience77\\LaravelSchemaspyMeta\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Audience77\\LaravelSchemaspyMeta\\SchemaspyMetaServiceProvider"
+        ]
+      }
+    }
+  }
